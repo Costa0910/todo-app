@@ -21,7 +21,7 @@ const Completed = () => {
   return (
     <section className="tasks">
       {allCompleted}
-      {allCompleted.length > 0 && (
+      {allCompleted.length > 1 && (
         <div className="delete">
           <button onClick={deleteAll} className="delete-all">
             <span className="material-symbols-outlined">delete_forever</span>
